@@ -1,8 +1,14 @@
 def roll_call_dwarves(dwarves)
  dwarves = ["Dopey", "Bashful", "Grumpy"]
- collect = 0 
- dwarves.each do |name| 
-   
+  i = 0 
+  collection = []
+  while i < dwarves.length 
+  collection <<
+  yield(dwarves[i])
+  i += 1 
+end
+collection
+end
   end
 
 def summon_captain_planet# code an argument here
