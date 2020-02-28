@@ -5,7 +5,7 @@ end
 
 
 def summon_captain_planet(array)
-  array = []
+  array = ["apple", "banana", "orange"]
   array.map {|call| call.capitalize.join("!")}
  end
 
