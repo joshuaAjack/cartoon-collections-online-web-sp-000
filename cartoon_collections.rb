@@ -1,5 +1,5 @@
 def roll_call_dwarves(item)
- (Dopey Grumpy Bashful).each_with_index{|item, 0|}
+ (Dopey Grumpy Bashful).each_with_index{|item, index|}
   end
 
 def summon_captain_planet# code an argument here
