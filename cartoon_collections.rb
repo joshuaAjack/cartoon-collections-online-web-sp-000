@@ -1,13 +1,6 @@
 def roll_call_dwarves(dwarves)
  dwarves = ["Dopey", "Bashful", "Grumpy"]
-  i = 0 
-  collection = []
-  while i < dwarves.length 
-  collection <<
-  yield(dwarves[i])
-  i += 1 
-end
-collection
+ puts dwarves
 end
 
 
