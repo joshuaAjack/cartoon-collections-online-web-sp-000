@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
- dwarves = ["1.Dopey", "2.Grumpy, "3.Bashful"]
+ dwarves = ["1.Dopey", "2.Grumpy, "Bashful"]
  puts dwarves
 end
 
