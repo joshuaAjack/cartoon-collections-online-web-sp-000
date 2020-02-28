@@ -1,5 +1,6 @@
 def roll_call_dwarves(array)
-  array = 
+  array = ["Dopey", "Grumpy", "Bashful"]
+  array.collect do puts array
 end
 
 def summon_captain_planet# code an argument here
