@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   array = []
-  array.map {array
+  array.map {|call| call.cap
  
 end
 
