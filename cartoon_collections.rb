@@ -4,13 +4,13 @@ def roll_call_dwarves(dwarves)
 end
 
 
-def summon_captain_planet(array)
+def summon_captain_planet(array, veggies)
   array = ["apple!", "banana!", "orange!"]
   array.map! {|call| call.capitalize}
  end
- veggies = ["carrot", "cucumber", "pepper"]
-      result = summon_captain_planet(veggies)
-      ['Carrot!', 'Cucumber!', 'Pepper!'].each { |w| expect(result).to include w
+ veggies = ["carrot!", "cucumber!", "pepper!"]
+     veggies.map! {|call| call.capitalize}
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
