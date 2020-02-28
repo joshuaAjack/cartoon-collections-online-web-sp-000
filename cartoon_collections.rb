@@ -1,7 +1,5 @@
 def roll_call_dwarves(array)
-  array = ["Dopey", "Grumpy", "Bashful"]
-  array.collect do |name| 
-    name.split(" ").first 
+ (Dopey, )
   end
 end
 
