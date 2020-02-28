@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
   array = ["Dopey", "Grumpy", "Bashful"]
   array.collect do |name| 
+    name.split(" ") 
 end
 
 def summon_captain_planet# code an argument here
