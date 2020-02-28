@@ -1,5 +1,5 @@
-def roll_call_dwarves(array)
- (Dopey Grumpy Bashful).each_with_index
+def roll_call_dwarves(item)
+ (Dopey Grumpy Bashful).each_with_index{item
   end
 end
 
