@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
- (Dopey, )
+ (Dopey Grumpy Bashful )
   end
 end
 
