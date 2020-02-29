@@ -5,11 +5,8 @@ end
 
 
 def summon_captain_planet(array)
-  array = ["apple!", "banana!", "orange!"]
-  array.map! {|call| call.capitalize}
- end
- veggies = ["carrot!", "cucumber!", "pepper!"]
-     veggies.map! {|call| call.capitalize}
+  veggies.collect do |call| 
+    call.capitalize + "!"
 
 
 def long_planeteer_calls
